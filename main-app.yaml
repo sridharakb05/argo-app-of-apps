@@ -8,7 +8,7 @@ spec:
     namespace: default
     server: 'https://kubernetes.default.svc'
   source:
-    path: argocd-apps
+    path: argo-apps
     repoURL: 'https://github.com/sridharakb05/argo-app-of-apps.git'
     targetRevision: HEAD
     directory:

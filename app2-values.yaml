@@ -1,7 +1,7 @@
 replicaCount: 5
 
 image:
-  repository: webserver
+  repository: nginx
   tag: "1.25.0"
   pullPolicy: IfNotPresent
 
